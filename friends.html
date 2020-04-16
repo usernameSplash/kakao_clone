@@ -4,22 +4,25 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <script
-            src="https://kit.fontawesome.com/9958b8319c.js"
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
             crossorigin="anonymous"
-        ></script>
+        />
         <title>Friends | Kakao Clone</title>
     </head>
     <body>
         <div class="status-bar">
             <div class="status-bar__column">
-                <span class="status-bar__clock">
-                    <i class="far fa-clock"></i>
-                    <i class="fas fa-volume-mute"></i>
-                    <i class="fas fa-wifi"></i>
-                    <i class="fas fa-battery-full"></i>
-                    <span class="status-bar__battery-level">100%</span>
-                </span>
+                <span class="status-bar__clock">13:54 </span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar__battery-level">100%</span>
+                <i class="fas fa-battery-full"></i>
             </div>
         </div>
         <header class="header">
@@ -30,6 +33,7 @@
                 <span class="header__icon">
                     <i class="fas fa-search"></i>
                 </span>
+
                 <span class="header__icon">
                     <i class="fas fa-cog"></i>
                 </span>
@@ -51,8 +55,8 @@
                     </div>
                 </div>
             </header>
-            <div class="friends__plus-friend">
-                <h5 class="friends__title">Plus Friend</h5>
+            <div class="friends__plus">
+                <h5 class="friends__title">Plus friend</h5>
                 <div class="friends__friend friend">
                     <div class="friend__column">
                         <img src="image.png" class="g-avatar friend__avatar" />
@@ -68,18 +72,23 @@
                 <h5 class="friends__title">Friends 14</h5>
                 <li class="friends__friend friend friend--lg">
                     <div class="friend__column">
-                        <img src="image.png" class="g-avatar friend__avatar" />
+                        <img src="jisung.png" class="g-avatar friend__avatar" />
                         <div class="friend__content">
                             <span class="friend__name">
-                                Kyeongmin Kim
+                                박지성
+                            </span>
+                            <span class="friend__status">
+                                대단하다, 박지성!
                             </span>
                         </div>
                     </div>
                     <div class="friend__column">
-                        <span>
-                            응디시티 - MC무현
-                        </span>
-                        <i class="fas fa-play"></i>
+                        <div class="friend__now-listening">
+                            <span>
+                                FTISLAND (FT NomadCoders)
+                            </span>
+                            <i class="fas fa-play"></i>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -88,8 +97,8 @@
             <ul class="nav__list">
                 <li class="nav__list-item">
                     <a href="friends.html" class="nav__list-link">
-                        <i class="fas fa-user"></i>
-                    </a>
+                        <i class="fas fa-user"></i
+                    ></a>
                 </li>
                 <li class="nav__list-item">
                     <a href="index.html" class="nav__list-link">
