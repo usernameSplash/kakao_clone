@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
     border-bottom: 2px solid #f7f7f7;
     color: rgba(2, 2, 2, 0.7);
 }
