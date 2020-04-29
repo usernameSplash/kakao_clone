@@ -28,6 +28,17 @@
     animation: sentAni 0.5s ease-out forwards;
 }
 
+@keyframes timestampAni {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .chat__messages .chat__timestamp {
     background-color: white;
     font-size: 12px;
@@ -38,6 +49,7 @@
         rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     text-transform: uppercase;
     font-weight: 700;
+    animation: timestampAni 0.5s ease-out forwards;
 }
 
 .message {
