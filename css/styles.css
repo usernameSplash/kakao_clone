@@ -29,3 +29,16 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(40px);
+    }
+    to {
+        transform: none;
+    }
+}
+
+main {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
